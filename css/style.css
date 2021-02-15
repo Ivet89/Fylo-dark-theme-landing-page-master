@@ -61,7 +61,11 @@ h6 {
 
 /* ---------------ARTICLE SECTION--------------- */
 .bg-top {
-  background: bottom no-repeat url(../bg-curvy-desktop.svg);
+  -webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+background-size: 100% 100%;
+  background: bottom no-repeat url(/bg-curvy-desktop.svg);
   background-color: hsl(217, 28%, 15%);
   background-attachment: local;
   padding-bottom: 11rem;
