@@ -61,7 +61,7 @@ h6 {
 
 /* ---------------ARTICLE SECTION--------------- */
 .bg-top {
-  background: bottom no-repeat url(/bg-curvy-desktop.svg);
+  background: bottom no-repeat url(../bg-curvy-desktop.svg);
   background-color: hsl(217, 28%, 15%);
   background-attachment: local;
   padding-bottom: 11rem;
