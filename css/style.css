@@ -61,11 +61,12 @@ h6 {
 
 /* ---------------ARTICLE SECTION--------------- */
 .bg-top {
-  background: bottom no-repeat url(/bg-curvy-desktop.svg);
-  background-color: hsl(217, 28%, 15%);
-  background-attachment: scroll;
-  padding-bottom: 11rem;
+  background: url(/bg-curvy-desktop.svg);
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: hsl(217, 28%, 15%);
+  padding-bottom: 11rem;
 }
 
 .btn {
