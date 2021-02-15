@@ -63,7 +63,7 @@ h6 {
 .bg-top {
   background: bottom no-repeat url(/bg-curvy-desktop.svg);
   background-color: hsl(217, 28%, 15%);
-  background-attachment: local;
+  background-attachment: scroll;
   padding-bottom: 11rem;
   background-size: contain;
 }
