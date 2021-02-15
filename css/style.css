@@ -24,7 +24,7 @@ h6 {
 }
 
 .header {
-  padding: 4rem 3rem;
+  padding: 2rem;
 }
 
 .header, .textarea, .window-section {
@@ -51,7 +51,7 @@ h6 {
 
 /* ---------------NAVIGATION SECTION--------------- */
 .navigation-section {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .nav-link {
