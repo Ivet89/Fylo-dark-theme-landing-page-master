@@ -24,7 +24,7 @@ h6 {
 }
 
 .header {
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .header, .textarea, .window-section {
@@ -226,7 +226,7 @@ ul {
       background-repeat: no-repeat;
       background-position: bottom;
       background-color: hsl(217, 28%, 15%);
-      padding-bottom: 0;
+      padding-bottom: 2rem;
     }
 }
 
