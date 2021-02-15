@@ -61,10 +61,6 @@ h6 {
 
 /* ---------------ARTICLE SECTION--------------- */
 .bg-top {
-  -webkit-background-size: 100% 100%;
--moz-background-size: 100% 100%;
--o-background-size: 100% 100%;
-background-size: 100% 100%;
   background: bottom no-repeat url(/bg-curvy-desktop.svg);
   background-color: hsl(217, 28%, 15%);
   background-attachment: local;
@@ -222,6 +218,15 @@ ul {
   .article-section, .article-text, .window-section, .window-section p {
     width: 90% !important;
   }
+
+    .bg-top {
+      background: url(../bg-curvy-mobile.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-color: hsl(217, 28%, 15%);
+      padding-bottom: 0;
+    }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -242,15 +247,6 @@ ul {
     text-align: center;
   }
 
-  .bg-top {
-    background-size: contain;
-    background: url(/bg-curvy-mobile.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-color: hsl(217, 28%, 15%);
-    background-attachment: local;
-    padding-bottom: 4rem;
-  }
 
   .phone-email {
     justify-content: flex-start;
