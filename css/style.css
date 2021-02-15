@@ -220,7 +220,7 @@ ul {
   }
 
     .bg-top {
-      background: url(../bg-curvy-mobile.svg);
+      background: url(/bg-curvy-mobile.svg);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: bottom;
